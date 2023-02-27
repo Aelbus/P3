@@ -440,12 +440,23 @@ footer a {
     #filtre-box{
         width: auto;
     }
+    
     #filtre-box div {
         width: auto;
         height: auto;
         display: flex;
-        gap: 10px;
+        gap: 6px;
         flex-wrap: wrap;
+    }
+    #filtre-box p {
+        padding: 0 10px 0 0;
+    }
+    #filtre-box a {
+        font-size: 13px;
+        padding: 10px 15px 10px 15px;
+    }
+    #filtre-box i {
+        font-size: 15px;
     }
 
     #hebergements {
@@ -548,12 +559,14 @@ footer a {
         margin: 0 20px;
     }
     #filtre-box div{
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
     #filtre-box a {
-        width: 40%;
+        width: 35%;
+        font-size: 11px;
     }
 
     #info {

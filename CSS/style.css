@@ -232,7 +232,8 @@ main {
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    justify-content: space-around;
+    gap: 40px;
 }
 
 .populaire {
@@ -244,13 +245,13 @@ main {
 }
 
 .hebergement h2 {
-    margin: 42px 0 0 34px;
+    margin: 40px 0 0 34px;
 }
 
 #more {
     font-size: 18px;
     font-weight: 700;
-    margin: 0 0 0 34px;
+    margin: 0 0 40px 34px;
 }
 
 .populaire-title {
@@ -267,12 +268,15 @@ main {
 }
 
 .conteneur-card {
-    width: 91%;
-    height: 199px;
-    display: flex;
-    justify-content: space-between;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 25px;
     margin-left: 4.5%;
     margin-right: 4.4%;
+    flex-grow: 1;
 }
 
 .conteneur-card-pop{
@@ -287,8 +291,8 @@ main {
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬Carte▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
 
 .card {
-    width: 30%;
-    height: 189px;
+
+    height: auto;
     background-color: white;
     border: 5px solid #FFFFFF;
     box-shadow: 0px 3px 15px #0000001a;
@@ -333,7 +337,7 @@ main {
 .card-description .nota{
     font-size: 12px;
     position: absolute;
-    top: 55px;
+    bottom: 9px;
     word-spacing: -5px;
 }
 
@@ -423,8 +427,6 @@ footer div {
     font-weight: 700;
     width: 25%;
     padding: 30px 0;
-
-
 }
 
 footer a {

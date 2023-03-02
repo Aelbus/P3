@@ -421,8 +421,9 @@ footer {
 footer div {
     font-size: 18px;
     font-weight: 700;
-    width: auto;
+    width: 25%;
     padding: 30px 0;
+
 
 }
 
@@ -460,8 +461,10 @@ footer a {
     }
 
     #hebergements {
+        width: 95%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .hebergement {
@@ -493,6 +496,9 @@ footer a {
         margin-top: 0;
         margin-bottom: 0;
     }
+    #activites {
+        width: 95%;
+    }
     .card-pop a {
         width: 90%;
         margin: 0;
@@ -506,10 +512,14 @@ footer a {
     .card-activity img {
         height: 211px;
     }
+    footer {
+        width: 85%;
+    }
 }
 
 /*▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬MOBILE▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬*/
 @media screen and (max-width: 767px) {
+
     header, main, footer {
         margin: 0;
     }
@@ -538,7 +548,7 @@ footer a {
     }
 
     form {
-        width: 100%;
+        width: 96%;
         justify-content: center;
     }
     input {
@@ -570,6 +580,7 @@ footer a {
     }
 
     #info {
+        width: 85%;
         margin: 20px 20px;
     }
 
@@ -641,7 +652,7 @@ footer a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 90%;
         height: auto;
         gap: 12px;
     }
@@ -649,6 +660,7 @@ footer a {
         width: 100%;
     }
     footer {
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;

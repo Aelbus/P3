@@ -454,7 +454,7 @@ footer a {
     #filtre-box p {
         padding: 0 10px 0 0;
     }
-    #filtre-box a {
+    #filtre-box button {
         font-size: 13px;
         padding: 10px 15px 10px 15px;
     }
@@ -576,9 +576,11 @@ footer a {
         justify-content: center;
         flex-wrap: wrap;
     }
-    #filtre-box a {
+    #filtre-box button {
         width: 35%;
         font-size: 11px;
+        width: 49%;
+        white-space : nowrap;
     }
 
     #info {
@@ -621,7 +623,7 @@ footer a {
         height: auto;
         display: flex;
         flex-direction: column;
-        gap: 12x;
+        gap: 12px;
     }
 
 
